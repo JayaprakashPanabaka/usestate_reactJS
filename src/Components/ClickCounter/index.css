@@ -1,0 +1,52 @@
+/* Write your CSS here */
+
+body {
+    margin: 0;
+  }
+  
+  .bg-container {
+    background-color: #f1f5f8;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .main-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Roboto';
+  }
+  
+  .heading {
+    color: #2d3a35;
+    text-align: center;
+    font-size: 40px;
+  }
+  
+  .heading span {
+    color: #c20a72;
+  }
+  
+  .para {
+    color: #2d3a35;
+  }
+  
+  .button {
+    background-color: #007bff;
+    color: #ffffff;
+    border: none;
+    width: 100px;
+    height: 40px;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+  }
+
+  .button:hover {
+    cursor: pointer;
+  }
+  
